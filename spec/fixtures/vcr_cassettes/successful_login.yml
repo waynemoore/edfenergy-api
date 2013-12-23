@@ -1,0 +1,536 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://my-account.edfenergy.com/irj/portal/anonymous
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - my-account.edfenergy.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Content-Language:
+      - en-US
+      Expires:
+      - '0'
+      Date:
+      - Mon, 23 Dec 2013 21:21:13 GMT
+      Set-Cookie:
+      - BNES_JSESSIONID=uAnVU51RdVrDTV/DUEEyIW5JIgBH1pL5VS5PfVk4+oa7JdoBXzPydpJ5JCLkL301rswle0rB7By+r6jVwfBsSsTYHEYeLBUN3pY0Zn1QY8UQVpQgVjcgcRDDZ7T4F3rBp+SDTRYzATk7v3ES8PML0b5w99lARHenVpjzLnpF7Dk=;
+        Version=1; Path=/irj/; HttpOnly
+      - BNES_PortalAlias=XzUY/VXmwrodHSs0LYajoPVGv2+xxMK565PK3PDPqV5kwahXuVAGWVh4d7/t8zaCGWIqO3SVuuxWWH7Q91cvT2M12fX8vDH+;
+        Path=/
+      - BNES_saplb_*=iUQvbDtAK8EBbgtTf7rgnxJAf01VDG9C+DncaN/MuSAAOBVwBJAewBkqmigALfcR/Y3vkUq7LUpC8DWgt7WQAJJXwua3B9KIiSnW7qk7QiU=;
+        Version=1; Path=/irj/; HttpOnly
+      - BNI_persistence=00000000000000000000000064d910ac000001e1; Path=/; HttpOnly
+      - JSESSIONID=(J2EE767206400)ID0363705751DB21554630fd811a9b3d2f14c6a199f4123883d590End;
+        Version=1; Path=/irj/; HttpOnly
+      - PortalAlias=portal/anonymous; Path=/
+      - saplb_*=(J2EE767206400)767206451; Version=1; Path=/irj/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd\">\n<html><head><LINK
+        REL=stylesheet HREF=\"/irj/portalapps/com.sap.portal.design.portaldesigndata/themes/portal/Edf_Energy_Orchard_Theme/glbl/glbl_nn7.css?7.0.20.0.1\">\n<LINK
+        REL=stylesheet HREF=\"/irj/portalapps/com.sap.portal.design.portaldesigndata/themes/portal/Edf_Energy_Orchard_Theme/prtl_std/prtl_std_nn7.css?7.0.20.0.1\">\n\n<!--
+        EPCF: BOB Core -->\n<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n<script
+        src=\"/irj/portalapps/com.sap.portal.epcf.loader/script/optimize/js13_epcf.js?7.00001620\"></script>\n<script>\n<!--\nEPCM.relaxDocumentDomain();\nEPCM.init(
+        {\nVersion:7.00001620,\nLevel:1,\nPortalVersion:\"7.00.200908152330\",\nDynamicTop:false,
+        // [service=true nestedWinOnAlias=false]\nUAType:21, // [Mozilla]\nUAVersion:5.0,\nUAPlatform:4,
+        // [Linux]\nUIPMode:\"1\", // [Default=1, User=0, Personalize=true]\nUIPWinFeatures:\"\",\nUIPPortalPath:\"https://my-account.edfenergy.com:443/irj/portal/anonymous\",\nUIPPopupComp:\"\",\nUIPPopupCompSize:\"\",\nUIPPopupMsgNN:\"Your
+        current page contains unsaved data.\\r\\nDo you want to continue with navigation
+        and open a new window?\",\nUIPPopupMsgND:\"Your current page contains unsaved
+        data.\\r\\nDo you want to discard the changes and open the content in the
+        same window?\",\nDBGException:false\n} );\nEPCM.DSM.init( {\nTerminatorURL:\"/irj/servlet/prt/portal/prtroot/com.sap.portal.dsm.Terminator\",\nWinEmptyUrl:\"/irj/portalapps/com.sap.portal.dsm/images/empty.gif\",\nForcedUserDebug:false,\nKeepAliveActive:false,\nKeepAliveDelta:840,\nKeepAliveStopAfter:36000\n}
+        );\nfunction SAPWP_receiveSessInfo( sessInfo, frameRef ){\n  EPCM.DSM.processSession(
+        sessInfo, frameRef );\n}\n//-->\n</script>\n<!-- EPCF: EOB Core -->\n\n<script
+        type=\"text/javascript\">\n/*HTML Business for Java, 645_SP_REL, 529005, Wed
+        Jul 22 15:27:56 BST 2009*/\nur_system = {doc : window.document , mimepath
+        :\"/irj/portalapps/com.sap.portal.design.urdesigndata/themes/portal/Edf_Energy_Orchard_Theme/common/\",
+        stylepath : \"/irj/portalapps/com.sap.portal.design.urdesigndata/themes/portal/Edf_Energy_Orchard_Theme/ur/\",
+        emptyhoverurl : \"/irj/portalapps/com.sap.portal.htmlb/jslib/emptyhover.html\",
+        is508 : false, dateformat : 1, domainrelaxing : \"MINIMAL\"};\n</script>\n<title
+        >MyAccount</title><meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"><script
+        SRC=\"/irj/portalapps/com.sap.portal.httpconnectivity.httpauthentication/scripts/CAManagerScript.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/HistoryFramework.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/NavigationFramework.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/FrameworkSupport.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.pagebuilder/scripts/pagesupport.js\"
+        ></script><link  REL=STYLESHEET  HREF=\"/irj/portalapps/com.edfe.orchard.Logon/css/stylesheets/main_v1.5.css?7.0.20.0.1\"
+        \ TYPE=\"text/css\" ><link  REL=STYLESHEET  HREF=\"/irj/portalapps/com.edfe.orchard.Logon/css/stylesheets/myaccount_v3.css?7.0.20.0.1\"
+        \ TYPE=\"text/css\" ></head><body class=\"prtlBody urFontBaseFam urScrl\">\n<!--
+        EPCF: Component com.sap.portal.navigation.portallauncher.anonymous, bidgealabhgffchpmgjlabedajpdegin
+        -->\n<Script>\nvar caEngine = new CAManager('/irj/servlet/prt/portal/prtroot/com.sap.portal.httpconnectivity.httpauthentication.Engine','dialogHeight:10;dialogWidth:20;center:1;help:0;status:0');\ncaEngine.registerCAEvent('com.sap.portal.httpconnectivity.httpauthentication','Teach',caEngine,'eventCallBack');\n</Script>\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script>\r\n\r\nvar
+        disableWorkProtectCheck = false;\r\n\r\n\r\nfunction popupUnsavedDataBeforeUnload(evt)\r\n{\r\n\tif
+        ((typeof pageTitleBar != \"undefined\") && pageTitleBar.backForwardLink)\r\n\t{\r\n\t\tpageTitleBar.backForwardLink
+        = false;\t\r\n\t}\r\n\telse\r\n\t{\r\n\t\tevt = (evt) ? evt : ((window.event)
+        ? event : null);\r\n\t\tif ( EPCM.getUAType() != EPCM.MSIE && EPCM.getUAType()
+        != EPCM.MOZILLA) return;\r\n\t\tif ( EPCM.getGlobalDirty() && (! disableWorkProtectCheck
+        ))\r\n\t\t{\r\n\t\t\tif(EPCM.getUAType() == EPCM.MSIE )\r\n\t\t\t{\r\n\t\t\t\tevt.returnValue
+        = 'You have unsaved data';\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\t\t\r\n\t\t\t\tevt.preventDefault();\r\n\t\t\t\tevt.stopPropagation();\r\n\t\t\t\treturn
+        'You have unsaved data';\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\ntry{\r\n     if
+        ( EPCM.getUAType() == EPCM.MSIE || EPCM.getUAType()== EPCM.MOZILLA){\r\n       if
+        (window==EPCM.getSAPTop()){  \r\n         window.onbeforeunload = popupUnsavedDataBeforeUnload;\r\n
+        \      }   \r\n     }\r\n} catch(ex){} \r\n</script><script>frameworkSupport.init({anonymous:true,phase:'framework',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous'});</script><script>frameworkSupport.init2({contentAreaURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage!2fcom.sap.portal.contentarea',portalURL:'https://my-account.edfenergy.com:443/irj/portal/anonymous',innerPage:'pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/CustomLogonDesktop/frameworkPages/com.edfe.orchard.pct.Logon_Page_pg/com.sap.portal.innerpage',innerPageFrameURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fCustomLogonDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.Logon_Page_pg!2fcom.sap.portal.innerpage',tlnComp:'/irj/portalapps/com.sap.portal.navigation.toplevel',ObjBasedNavigationURL:'/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.objbased.ObjBasedNavigation',serverPath:'https://my-account.edfenergy.com:443',usedConnectors:''});</script>\t\r\n\r\n<span
+        id=divChangeContent name=divChangeContent style=\"position:absolute;height:0;width:0;top:-5000;left:-5000\">\r\n\t<FORM
+        action=\"\" method=POST id=\"frmChangeContent\" name=\"frmChangeContent\">\r\n\t\t<INPUT
+        type=\"hidden\" id=NavigationTarget name=NavigationTarget>\r\n\t\t<INPUT type=\"hidden\"
+        id=RelativeNavBase name=RelativeNavBase></INPUT>\r\n\t<input type=\"hidden\"
+        name=\"__ncforminfo\" value=\"tu9KILBMVGTXsHCwWujRjjsKPLfyJaJ_rLpLYJ9okbhS1O_CAqKmzMW5gPQAFAJTtnbP6pICOa4=\"></FORM>\r\n\t<form
+        \ id='obnNavForm' method='post' target='obnNavIFrame' >\r\n\t\t<input type='hidden'
+        name='systemAlias'>\r\n\t\t<input type='hidden' name='businessObjName'>\r\n\t\t<input
+        type='hidden' name='objValue'>\r\n\t\t<input type='hidden' name='operation'>\r\n\t\t<input
+        type='hidden' name='usePost' value='false'>\r\n\t\t<input type='hidden' name='source'>\r\n\t\t<input
+        type='hidden' name='resolvingMode' value='Default'>\r\n\t<input type=\"hidden\"
+        name=\"__ncforminfo\" value=\"vDsK780gAYMfETQZFEc4jJ6vKcEYayImJpOHuY_-1bLUTpjGE518vs_zhKJDXhB1auVDFV2FwR1K5Sv0wDVxx-nWRz0wi7xuj92sATpVKlVRDiGdvRqf_0e0Wfqy-Akp\"></form>\r\n</span>\r\n<iframe
+        src='/irj/portalapps/com.sap.portal.pagebuilder/html/EmptyDocument.html' style='position:absolute;height:0;visibility:hidden'
+        name='obnNavIFrame' id='obnNavIFrame'></iframe>\r\n<script>var disablePersonalize
+        = true;</script>\n<!-- EPCF: Component com.sap.portal.pagebuilder.pageBuilder,
+        bcoajfheohmihiicjopnmnedajpdegio -->\n<SCRIPT>var emptyDocumentUrl = \"/irj/portalapps/com.sap.portal.pagebuilder/html/EmptyDocument.html\";</SCRIPT>\n<!--
+        EPCF: Component com.sap.portal.layouts.framework.light_framework, fobjfhioefijgncbfigfnfedajpdegjc
+        -->\n\r\n\r\n\r\n\r\n\r\n<SCRIPT>if (typeof EPCM != \"undefined\") {EPCM.relaxDocumentDomain();}
+        else { var d=document.domain; if (d.search(/^\\d+\\.\\d+\\.\\d+\\.\\d+$/)>=0)
+        {} else { var l=d.indexOf(\".\"); if (l>=0) {d=d.substr(l+1)} } if (document.domain
+        != d) {document.domain = d;}}\npageSupport.pageHelperUrl = '/irj/servlet/prt/portal/prtroot/com.sap.portal.pagebuilder.PageHelper';\npageSupport.proxyModesUrl
+        = '/irj/servlet/prt/portal/prtroot/com.sap.portal.pagebuilder.IviewModeProxy';\npageSupport.addPageId('pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/CustomLogonDesktop/frameworkPages/com.edfe.orchard.pct.Logon_Page_pg','0','local');\npageSupport._addIvuPageId(\"pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/CustomLogonDesktop/frameworkPages/com.edfe.orchard.pct.Logon_Page_pg/com.edfe.orchard.pct.Logon_ivu\",\"page0ivu0\");\npageSupport._addIViewBank(\"page0ivu0\",new
+        iviewBank(\"\",\"\",pageSupport.EMBEDDED,1,\"0\",\"\",\"GET\"));\n</SCRIPT>\r\n
+        \   <script>\r\n        document.body.style.margin=0;\r\n        document.body.scroll
+        = \"no\";\r\n       \r\n       \r\n    </script>\r\n \r\n            <TABLE
+        style=\"WIDTH: 100%\" cellSpacing=0 cellPadding=0  class=\"prtlHeaderCon\"
+        \ ><TR><TD>\n<!-- EPCF: Component com.edfe.orchard.Logon.LogonComp, lbkfpkonnhbpiafihbjohledajpdegip
+        -->\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    \r\n\r\n<html xmlns:xalan-nodeset=\"http://xml.apache.org/xalan\"
+        xmlns:java=\"http://xml.apache.org/xslt/java\" xmlns=\"http://www.w3.org/1999/xhtml\">\r\n
+        \ <head>\r\n\t<meta name=\"generator\" content=\"HTML Tidy for Windows (vers
+        14 February 2006), see www.w3.org\" />\r\n\t<title>MyAccount</title>\r\n\r\n\r\n\t<link
+        rel=\"SHORTCUT ICON\" href=\"/irj/portalapps/com.edfe.orchard.Logon/images/favicon/favicon.ico\"
+        />\r\n\t\r\n\t\r\n\t<script type=\"text/javascript\" src=\"/irj/portalapps/com.edfe.orchard.Logon/scripts/edfenergy-ga-script-n.js\"></script>\t\r\n\t\t\r\n\t\t<script
+        type=\"text/javascript\">\r\n\t\tloadTrackCode('UA-25608035-1');\r\n\t\r\n\t\t\t
+        \ \t\r\n\t\t\t\t  _gaq.push(['_trackPageview', 'Login']);\r\n\t\t\t\t\t\r\n\t\t</script>\r\n\t\r\n\r\n<script
+        language=\"JavaScript\">\r\n/*var emailRegEx = /^([a-zA-Z0-9_\\.\\!\\#\\$\\%\\^\\&\\*\\{\\}\\~\\`\\+\\_\\=\\?\\'\\|\\\"\\-]{2,})\\@(([a-zA-Z0-9\\-]{2,})\\.)+([a-zA-Z]{2,4})+$/;*/\r\nvar
+        emailRegEx = /^\\s*[\\w\\-\\+_\\{\\}\\~\\`\\+\\_\\=\\?\\'\\|\\\"\\-\\!\\#\\$\\%\\^\\&\\*]+(\\.[\\w\\-\\+_\\']+)*\\@[\\w\\-\\+_]+\\.[\\w\\-\\+_]+(\\.[\\w\\-\\+_]+)*\\s*$/;\r\nvar
+        Monitor_Flag1 = true;\r\n\tdocument.onkeyup = checkKeyPressed;\r\n\r\n\twindow.history.forward(1);\r\n\t\r\n\tfunction
+        EDFEDisableSubmitButton1( button_text1, button_id1 )\r\n\t{\r\n\tvar bid =
+        button_id1;\r\n\tvar btext = button_text1;\r\n\tdocument.getElementById( bid
+        ).innerHTML = \"<div class='btbg' id='\"+bid+\"'><a>\"+ btext +\" &raquo;
+        </a></div>\" ;\r\n\t}\r\n\r\n\tfunction checkCode()\r\n\t{\r\n\t\tif(event.keyCode==13)\r\n\t\t{\r\n\t\t\tevent.keyCode=9;\r\n\t\t}\t\r\n\t}\r\n\tfunction
+        checkKeyPressed()\r\n\t{\r\n\t\tif(event.keyCode==13)\r\n\t\t{\t\r\n\t\t\t\r\n\t\t\tif(Monitor_Flag1!=null
+        && Monitor_Flag1==true){\r\n\t\t\t\r\n\t\t\tcallGA('yes');\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\r\n\t\t\tcallGA('no');\r\n\t\t\t}\r\n\t\t}\t\r\n\t}\r\n\t\r\n\tfunction
+        change(param1,param2)\r\n\t{\r\n\t\tparam1.style.backgroundColor = param2;\t\r\n\t}\r\n\r\n\r\n\tfunction
+        allValidChars(email) \r\n\t{\r\n\t\r\n\t\tvar parsed = true;\r\n\t\t\r\n\t\tvar
+        validchars = \"abcdefghijklmnopqrstuvwxyz0123456789@.-_!#$%&`*+-/=?^'{}|~\\\"\";\r\n\t\t\r\n\t\t\r\n\t\tfor
+        (var i=0; i < email.length; i++) \r\n\t\t{\r\n\t\t\t\r\n\t\t\tvar letter =
+        email.charAt(i).toLowerCase();\r\n\t\t\t\r\n\t\t\tif (validchars.indexOf(letter)
+        != -1)\r\n\t\t\t  continue;\t\t  \r\n\t\t\tparsed = false;\r\n\t\t\tbreak;\r\n\t\t}\r\n\t\treturn
+        parsed;\r\n\t}\r\n\t\r\n\tfunction trim(str) {\r\n\t\treturn str.replace(/(^[\\s\\xA0]+|[\\s\\xA0]+$)/g,
+        '');\r\n\t}\r\n\tfunction validateEmail(email)\r\n\t{\r\n\t\tvar decision
+        = true;\r\n\t\tif(trim(email)!= null && trim(email) !=\"\"){\t\t\r\n\t\t\tif(email.match(emailRegEx)){\r\n\t\t\t\tdecision
+        = true;\r\n\t\t\t}else{\r\n\t\t\t\tdecision = false;\r\n\t\t\t}\r\n\t\t}else{\r\n\t\t\tdecision
+        = false;\r\n\t\t}\r\n\t\t\r\n\t\t/*\r\n\t\tif (! allValidChars(email)) \r\n\t\t{
+        \ \r\n\t        decision = false;\r\n\t    }\r\n\t\tif (email.indexOf(\"@\")
+        < 1) \r\n\t\t{ \r\n\t        decision = false;\r\n\t    } \r\n\t     \r\n\t
+        \   if(email.indexOf(\"@\")!=email.lastIndexOf(\"@\"))\r\n\t    {\r\n\t     decision
+        = false;\r\n\t    }    \t\r\n\t   \r\n\t    else if (email.lastIndexOf(\".\")
+        <= email.indexOf(\"@\")) \r\n\t    {  \r\n\t        decision = false;\r\n\t
+        \   } \r\n\t    else if (email.indexOf(\"@\") == email.length) \r\n\t    {
+        \ \r\n\t        decision = false;\r\n\t    } \r\n\t    else if (email.indexOf(\"..\")
+        >=0) \r\n\t    { \r\n\t\t\tdecision = false;\r\n\t    } \r\n\t    else if
+        (email.indexOf(\".\") == email.length) \r\n\t    {  \r\n\t\t\tdecision = false;\r\n\t
+        \   }*/\r\n\t    if(!decision)\r\n\t    {\r\n\t    \t\r\n\t    \tdocument.logonForm.f_username.focus();\r\n\t
+        \   \t\r\n\t    \tchange(document.logonForm.f_username,'#FFFFFF'); // Cosmotic
+        Changes \r\n\t    \t\r\n\t    \tdocument.getElementById('errorMessage').innerHTML
+        = \"Please enter a valid email address\";\r\n\t\t\tdocument.getElementById('errorMessage1').innerHTML
+        = \"\";\r\n\t    \t\r\n\t    }\r\n\t    else\r\n\t    {\r\n\t    \t\r\n\t
+        \   \tchange(document.logonForm.f_username,'#FFFFFF');\r\n\t    }\r\n\t    return
+        decision;\r\n\t}\r\n\t\r\n\r\n\tfunction callGA(GA) \r\n\t{\r\n\t\tif(GA!=null
+        && GA==\"yes\")\r\n\t\t{\r\n\t\t\t_gaq.push(['_trackPageview', 'LoginAttempted']);\r\n\t\t}\r\n\t\tvar
+        t = setTimeout(\"validateLogin()\", 100);\r\n\t}\r\n\r\n\t\r\n\r\n\tfunction
+        validateLogin()\r\n\t{\r\n\t \t\t\r\n\t\tvar email = document.logonForm.f_username.value;\r\n\t\tvar
+        pass = document.logonForm.f_passwd.value;\r\n\t\t\r\n\t\tif(email==null ||
+        email==\"\")\r\n\t\t{\r\n\t\t\tdocument.logonForm.f_username.focus();\r\n\t\t\t\r\n\t\t\tdocument.getElementById('errorMessage').innerHTML
+        = \"Please enter your 'username', which is your email address\";\r\n\t\t\t\r\n\t\t\tdocument.getElementById('errorMessage1').innerHTML
+        = \"\";\r\n\t\t\treturn false;\r\n\t\t}\r\n\t\telse \r\n\t\t{\r\n\t\t\tif(validateEmail(email))\r\n\t\t\t{\r\n\t\t\t\tif(pass==null
+        || pass=='')\r\n\t\t\t\t{\r\n\t\t\t\t\tdocument.logonForm.f_passwd.focus();\r\n\t\t\t\t\tdocument.getElementById('errorMessage').innerHTML
+        = \"Please enter your password\";\r\n\t\t\t\t\tdocument.getElementById('errorMessage1').innerHTML
+        = \"\";\r\n\t\t\t\t\tchange(document.logonForm.f_passwd,'#FFFFFF');\r\n\t\t\t\t\treturn
+        false;\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\tchange(document.logonForm.f_passwd,'#FFFFFF');\t\t\t\t\r\n\t\t\t\t\tdocument.logonForm.action
+        = \"/nclogin.submit\";\t\r\n\t\t\t\t\t\r\n\t\t\t\t\tEDFEDisableSubmitButton1('Login','EDFElogonButton');\r\n\t\t\t\t\tdocument.logonForm.submit();\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\t\r\n\t\t}\r\n\t\t\r\n\t}\r\n\r\n\r\n\tfunction
+        validateFU()\r\n\t{\r\n\t\tdocument.logonForm.action = \"/irj/servlet/prt/portal/prtroot/com.edfe.orcharcd.forgotUserName.ForgotUserNameController\";\r\n\t\tdocument.logonForm.submit();\r\n\t}\r\n\t\r\n\t\r\n\tfunction
+        validateFP()\r\n\t{\r\n\t\tdocument.logonForm.action = \"/irj/servlet/prt/portal/prtroot/com.edfe.orchard.forgotPassword.ForgotPasswordComp\";\r\n\t\tdocument.logonForm.submit();\r\n\t}\r\n\t\r\n\t\r\n\t\tfunction
+        validateRegisterSME()\r\n\t{\r\n\t\tdocument.logonForm.action = \"/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.SelfRegistrationComp\"+\"?refUsr=SME\";\r\n\t\t\r\n\t\tdocument.logonForm.submit();\r\n\t}\r\n\t\tfunction
+        validateRegisterResi()\r\n\t{\r\n\t\tdocument.logonForm.action = \"/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.SelfRegistrationComp\"+\"?refUsr=RESI\";\r\n\t\t\r\n\t\tdocument.logonForm.submit();\r\n\t}\r\n\t\r\n\r\n\tfunction
+        validateMR()\r\n\t{\r\n\t\tdocument.logonForm.action = \"/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller\";
+        \r\n\t\tdocument.logonForm.submit();\r\n\t}\r\n\r\n\t\r\n\r\n</script>\r\n\r\n
+        \ </head>\r\n  \r\n  <body onLoad=\"history.forward(); document.logonForm.f_username.focus();\">\r\n\t<div
+        id=\"wrap\">\r\n\t  <div id=\"outer-right\">\r\n\t\t<div id=\"outer\">\r\n<!---------------------------
+        start top section ----------------------------------->\r\n\r\n\t\r\n\r\n\r\n<script>\r\nfunction
+        performSearch()\r\n{\r\n\tvar searchItem \t\t= document.getElementById('searchBox');\r\n\twindow.open('http://www.edfenergy.com/search-results.php?query='+searchItem.value,'_blank');\r\n}\r\n\r\nfunction
+        clearText()\r\n{\r\n\tdocument.getElementById('searchBox').value=\"\";\r\n}\r\n\r\nfunction
+        EDFEDisableSubmitButton( button_text, button_id )\r\n{\r\n\tvar bid = button_id;\r\n\tvar
+        btext = button_text;\r\n\tdocument.getElementById( bid ).innerHTML = \"<div
+        class='btbg' id='\"+bid+\"'><a>\"+ btext +\" &raquo; </a></div>\" ;\r\n}\r\n\r\n\r\n</script>\r\n\r\n\r\n<!---------------------------
+        start top section ----------------------------------->\r\n\t\t\r\n\t<div id=\"header\">\r\n\t\t
+        \ <p class=\"hide-element\">\r\n\t\t\t<a href=\"#pnav\">skip to primary navigation</a>\r\n\t\t
+        \ </p>\r\n\t\t  <div id='logo'>\r\n\t\t\t<img src='/irj/portalapps/com.edfe.orchard.Logon/images/common/edfenergy_logo2.gif'
+        title='EDF Energy' alt='EDF Energy' width='56' height='89' border='0' />\r\n\t\t
+        \ </div><!-- start top utilities -->\r\n          \r\n\t\t  <div id=\"toplinks\">\r\n\t\t
+        \ <div class=\"left\">\r\n         <ul>\r\n\t\t\t\t<li><a href=\"/irj/portal/anonymous\">Home</a></li>\r\n\t\t\t\t<li><a
+        href=\"/irj/portal/anonymous\">MyAccount</a></li>\t\t\r\n\t\t\t\t<li><a href=\"/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller\">My
+        meter reading</a></li>\r\n\t\t </ul>\r\n\t\t </div>\r\n\t\t\t\t\r\n\t\t<div
+        class=\"right\">\r\n\t\t\t<ul>\r\n\t\t\t\t<li><a href=\"http://www.edf.com\"
+        target=\"_blank\">EDF Group</a></li>\r\n\t\t\t</ul>        \r\n           \t\r\n
+        \          <div id=\"searchform\">\r\n\t\t  <form name=\"SearchForm\" id=\"SearchForm\">\r\n\t\t\t
+        \ <input name=\"searchBox\" id=\"searchBox\" type=\"text\" value=\"Search\"
+        class=\"searchtextbox\" onfocus=\"clearText()\" /> \r\n\t\t\t  <input name=\"searchSubmit\"
+        type=\"image\" src=\"/irj/portalapps/com.edfe.orchard.Logon/images/common/search-icon.png\"
+        title=\"Perform Search\" class=\"faq-button\" onclick=\"performSearch(); return
+        false;\" />\r\n\t\t\t<input type=\"hidden\" name=\"__ncforminfo\" value=\"xNz6DmgsE3xirA_xdWYAwqCbAfRO41rY5ieFGcLK3ZncwpRcGJtprV4Eix1qcxh1\"></form>\r\n\t\t
+        \  </div>\t\r\n\t\t   \r\n\t\t</div>\t\t \t\t  \r\n</div>\r\n\t\t\r\n\t\t<!--
+        end top utilities -->\r\n\r\n          <!-- start top navigation -->\r\n            <div
+        id=\"topnav\">\r\n            <div id=\"topnav-inner\">\r\n              <p
+        class=\"hide-element\">\r\n                <a name=\"pnav\" id=\"pnav\">primary
+        navigation</a>\r\n              </p>\r\n              <p class=\"hide-element\">\r\n
+        \               <a href=\"#snav\">skip to secondary navigation</a>\r\n              </p>
+        \r\n              <ul>\r\n                <li>\r\n                  <a target=\"_blank\"
+        href=\"https://www.edfenergy.com/products-services\" >Products &amp; Services</a>\r\n
+        \               </li>\r\n\t    \t\t<li>\r\n\t            <a target=\"_blank\"
+        href=\"http://www.edfenergy.com/energyfuture\">Energy Future</a>\r\n\t            </li>\r\n
+        \               \r\n                <li>\r\n                  <a target=\"_blank\"
+        href=\"https://www.edfenergy.com/about-us\">About us</a>\r\n                </li>\r\n
+        \               <li>\r\n                  <a target=\"_blank\" href=\"https://www.edfenergy.com/sustainability\">Sustainability</a>\r\n
+        \               </li>\r\n                <li>\r\n                  <a target=\"_blank\"
+        href=\"https://www.edfenergy.com/careers\">Careers</a>\r\n                </li>\r\n
+        \               <li>\r\n                  <a target=\"_blank\" href=\"http://newsroom.edfenergy.com\">Media
+        centre</a>\r\n                </li>\r\n                <li>\r\n                  <a
+        target=\"_blank\" href=\"https://www.edfenergy.com/safety-emergencies\">Safety
+        &amp; emergencies</a>\r\n                </li>\r\n                \r\n              </ul>\r\n
+        \             <div class=\"clearFix\"></div>\r\n            </div>\r\n          </div><!--
+        end top navigation -->\r\n\t\t  </div>\t\t  \t\t  \r\n<!---------------------------
+        end top section ----------------------------------->\t  \r\n\r\n\r\n\r\n<!---------------------------
+        end top section ----------------------------------->\t  \r\n\t\t  \r\n<div
+        id=\"pagehold\">\r\n           \t\r\n<!--------------------------- start left
+        section ----------------------------------->\r\n\r\n\t\t\r\n\r\n\r\n<SCRIPT>\r\n\tfunction
+        fnNavigateMenu(locationURL,navigParam,menuIden)\r\n\t{\r\n\t\tif (navigParam
+        == 'false')\r\n\t\t{\r\n\t\t\tdocument.outsidemenu.menuidentifier.value\t\t=
+        menuIden ;\r\n\t\t\tdocument.outsidemenu.action \t\t\t\t\t= locationURL ;\r\n\t\t\tdocument.outsidemenu.submit()
+        ;\r\n\t\t}\r\n\t\telse\r\n\t\t{\r\n\t\t\twindow.open(locationURL) ;\r\n\t\t}\r\n\t}\r\n</SCRIPT>\r\n
+        \r\n\t\t\t<!-- start left section forgottenusername.html;forgottenpassword.html
+        -->\r\n\t\t\t   <div id=\"leftnav-outer\">\r\n\t\t\t  <div id=\"leftnav\">\r\n\t\t\t\t
+        \ <ul>\r\n\t\r\n\t\t\t\t\t\t\t<li><ul><a href=\"#\" class=\"xxx\" onClick=\"fnNavigateMenu('/irj/servlet/prt/portal/prtroot/EnterMeterRead_OutAccount.EnterMeterRead_Controller','false','EMR')\"
+        >Submit meter reading</a></ul></li>\t\r\n\t\t\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t<a
+        href=\"#\" class=\"xxx\" onClick=\"fnNavigateMenu('http://www.edfenergy.com/contact-us/index.shtml','true','CONTACTUS')\">Contact
+        us</a>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<ul><a
+        href=\"#\" class=\"current\" onClick=\"fnNavigateMenu('/irj/portal/anonymous','false','LOGON')\"
+        >Login / Register</a>\t\r\n\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t<li><a
+        href=\"#\" class=\"\" onClick=\"fnNavigateMenu('/irj/servlet/prt/portal/prtroot/com.edfe.orcharcd.forgotUserName.ForgotUserNameController','false','FUN')\"
+        >Forgotten your username</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"\"
+        onClick=\"fnNavigateMenu('/irj/servlet/prt/portal/prtroot/com.edfe.orchard.forgotPassword.ForgotPasswordComp','false','FUP')\"
+        >Forgotten your password</a></li>\r\n\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t</li>\t\t\t\t\t\r\n\r\n\t\t\t\t</ul>\r\n\t\r\n\t\t\t\t<ul>\r\n\t\t\t\t<br/><br/>\r\n\t\t\t\t<div
+        id=\"lpButtonDiv\" align=\"center\">\r\n\t\t\t\t \r\n\t\t\t\t</div>\r\n\t\t\t\t</ul>\r\n\t
+        \r\n\t\t\t  </div>\r\n\t\t\t</div>\r\n\t\t\t\t\t<!-- end left section -->\t\t\t\r\n<form
+        name=\"outsidemenu\" method=\"POST\">\r\n\t<input type=\"hidden\" name=\"menuidentifier\"
+        value=\"\">\r\n<input type=\"hidden\" name=\"__ncforminfo\" value=\"gmXexqEHpkN8kLmT6d7MuHdmG-mS6YQp6EoR00suhlhPpxHzUe2Af0dRyO5Z7Vze\"></form>\r\n\t\t\t\t\t\r\n<!---------------------------
+        end left section ----------------------------------->\r\n\r\n              \r\n<!---------------------------
+        start middle section ----------------------------------->\r\n              \r\n\t\t\t<div
+        id=\"maincontent-wrap\" class=\"fullwidth\">\r\n\t\t\t  <p class=\"hide-element\">\r\n\t\t\t\t<a
+        name=\"cont\" id=\"cont\">main content</a>\r\n\t\t\t  </p>\r\n\t\t\t  <div
+        id=\"maincontent-full\" class=\"nobanner\">\r\n\t\t\t\t <div id=\"banner\"
+        class=\"BannerWith2Circles\">\r\n\t\t\t\t  <h1>\r\n\t\t\t\t\tLogin / Register\r\n\t\t\t\t
+        \ </h1>\r\n\t\t\t\t  <div id=\"banner_text_wrap\">\r\n\t\t\t\t\t<img alt=\"\"
+        src=\"/irj/portalapps/com.edfe.orchard.Logon/images/banners/my-account.jpg\"
+        />\r\n\t\t\t\t\t<div id=\"banner_text\">\r\n\t\t\t\t\t <p>\r\n                        &nbsp;<br
+        />&nbsp;<br />Login or register<br />to access your<br />\r\n                        energy
+        account online<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;\r\n                      </p>\r\n\r\n\t\t\t\t\t</div>\r\n\t\t\t\t
+        \ </div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div id=\"two-col-wrap\" class=\"two_col_wrap_bg\">\r\n
+        \                 \r\n\t\t\t\t  <div id=\"content\" class=\"make-full\">\r\n\t\t\t\t\t<div
+        id=\"data\">\r\n\t\t\t\t\t\t<div id=\"leftcolumn\">\r\n\t\t\t\t\t\t\t<h2>Login
+        to MyAccount</h2>\r\n\r\n<!-- Prototype Builder Start srm::-->\r\n\r\n\t\t\t<form
+        name=\"logonForm\" method=\"post\" >\r\n\t\t\t\t\r\n\t\t\t\t<span class=\"legacymessage\">\r\n\t\t\t\t\r\n\t\t\t\t</span>\r\n\t\t\t\t<span
+        class=\"legacymessage\">\r\n\t\t\t\t\r\n\t\t\t\t</span>\r\n\t\t\t  \r\n\t\t\t\t\r\n\t\t\t
+        \ \t\r\n\t\t\t\t<span class=\"warningmessage\" id=\"errorMessage\"></span><BR/>\r\n\t\t\t\t<span
+        class=\"warningmessage\" id=\"errorMessage1\"></span>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<input
+        type =\"hidden\" name = \"f_method\" value = \"LOGIN\" />\r\n\t\t\t\t<table
+        class=\"formfields\" border=\"1\" summary=\"Visual Layout for the login form\">\r\n\t\t\t\t<tbody>\r\n\t\t\t\t<tr>\r\n\t\t\t\t<th><label
+        for=\"f_username\">Username (email address)<em>*</em></label></th><td>\r\n\t\t\t\t\r\n\t\t\t\t<input
+        id=\"f_username\" name=\"f_username\" type=\"text\" size=\"27\" maxlength=\"241\"
+        tabindex=\"1\" value=\"\"/>\r\n\t\t\t\t\r\n\t\t\t\t<A class=\"form_field_help\"
+        href=\"#f_username\"><IMG alt=\"help\" title=\"help\" src=\"/irj/portalapps/com.edfe.orchard.Logon/images/buttons/help_button.gif\"><SPAN>Please
+        enter your username</SPAN></A>\r\n\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t\t<tr>\r\n\t\t\t\t<th><label
+        for=\"f_passwd\">Password<em>*</em></label></th><td>\r\n\t\t\t\t\r\n\t\t\t\t<input
+        id=\"f_passwd\" name=\"f_passwd\" type=\"Password\" size=\"18\" maxlength=\"16\"
+        tabindex=\"2\" autocomplete=\"OFF\"/>\r\n\t\t\t\t\r\n\t\t\t\t<A class=\"form_field_help\"
+        href=\"#f_passwd\"><IMG alt=\"help\" title=\"help\" src=\"/irj/portalapps/com.edfe.orchard.Logon/images/buttons/help_button.gif\"><SPAN>Please
+        enter the password for this account</SPAN></A>\r\n\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t\t\r\n\t\t\t\t</tbody>\r\n\t\t\t\t</table>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t<div
+        class=\"ltbu\"></div>\r\n\t\t\t\t\t<div class=\"btbg\" id=\"EDFElogonButton\"><a
+        href=\"#\"  onClick=\"javaScript:callGA('yes');\">Login &raquo;</a></div>\r\n\t\t\t\t\t<div
+        class=\"rtbu\"></div>\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t<br /><br /><br />\r\n\t\t\t\t<p>Forgotten
+        your <a href=\"javaScript:validateFU();\">username</a> or <a href=\"javaScript:validateFP();\">password</a>?</p>\r\n\t\t\t<input
+        type=\"hidden\" name=\"__ncforminfo\" value=\"Z3CFJKP-9icmDJoUNvCyImzez0DXqsZChKjXdAZ6NDSFojSpqo9n4fssnFez3VbVxK1fyo0RuJ3ITmk097DNqw==\"></form>\r\n\r\n<!--
+        Prototype Builder End -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div id=\"rightcolumn\">\t\t\t\r\n\t\t\t\t\t<h2>Register
+        Today!</h2>\r\n\t\t\t\t  <p>&nbsp;</p>\r\n\r\n\t\t  <ul>\r\n\t\t\t\t<li class=\"tick\">
+        View and pay your bills</li>\r\n\t\t\t  <li class=\"tick\"> Submit your meter
+        reading</li>\r\n\t\t\t  <li class=\"tick\"> Update your details</li>\r\n\t\t\t
+        \ <li class=\"tick\"> Sign up for Direct Debit</li>\r\n\t\t  </ul><br/>\r\n\t\t\t\t\t\t\t\t\t\r\n\r\n<table
+        border=0><tr>\r\n<td>\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t<div class=\"btbu\" id=\"registerButtonResi\"><a
+        href=\"#\" onClick=\"validateRegisterResi();\" class=\"\">Register your<br>
+        home &raquo;</a></div> \r\n\t\t\t</td><td>\r\n&nbsp;&nbsp;&nbsp;</td>\r\n<td>\t\t\t<div
+        class=\"btbu\" id=\"registerButtonSME\"><a href=\"#\" onClick=\"validateRegisterSME();\"
+        class=\"\">Register your<br> business &raquo;</a></div>\r\n\t</td></tr>\r\n\t</table>\t\t\t\t\t\t\t\t\r\n<br/>\r\n\t\t\t\t\t\t\t\t
+        \ <p><strong>Don't have an online account?</strong><br/>You can still <a href=\"#\"
+        onClick=\"validateMR();\">submit a meter reading</a></p>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t
+        \ </div>\r\n\t\t\t\t</div>\r\n\t\t\t  </div>\r\n\t\t\t</div>\r\n<!---------------------------
+        end middle section ----------------------------------->\t\r\n\t\t\r\n</div><!--pagehold-->\r\n\t\t\r\n<!---------------------------
+        start bottom section ----------------------------------->\t\r\n          \r\n\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\nvar __stormJs = 't1.stormiq.com/dcv4/jslib/3171_71E90107_6FC7_48DB_B3F5_713D754C9B89.js';\r\n</script>\r\n<script
+        type=\"text/javascript\" src=\"/irj/portalapps/com.edfe.orchard.Logon/scripts/track.js\"></script>\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\r\nfunction TermsAndConditions()\r\n{\r\n\twindow.open(\"/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.PromotionalContentComp?fileName=TermsAndConditions.htm\",\"MyAccount\",\"location=no,scrollbars=yes\");\r\n\t//location.href
+        = \"/irj/servlet/prt/portal/prtroot/orcss.anonym.tncprivacy.TnCPrivacyPolicyController?urlParameter=tnc\";\r\n}\r\nfunction
+        PrivacyPolicy()\r\n{\r\n\twindow.open(\"/irj/servlet/prt/portal/prtroot/com.edfe.orchard.SelfRegistration.PromotionalContentComp?fileName=Privacy.html\",\"MyAccount\",\"location=no,scrollbars=yes\");\r\n\t//location.href
+        = \"/irj/servlet/prt/portal/prtroot/orcss.anonym.tncprivacy.TnCPrivacyPolicyController?urlParameter=privacy\";\r\n}\r\n//
+        Removes leading whitespaces\r\nfunction LTrim( value ) {\r\n\t\r\n\tvar re
+        = /\\s*((\\S+\\s*)*)/;\r\n\treturn value.replace(re, \"$1\");\r\n\t\r\n}\r\n\r\n//
+        Removes ending whitespaces\r\nfunction RTrim( value ) {\r\n\t\r\n\tvar re
+        = /((\\s*\\S+)*)\\s*/;\r\n\treturn value.replace(re, \"$1\");\r\n\t\r\n}\r\n\r\n//
+        Removes leading and ending whitespaces\r\nfunction trim( value ) {\r\n\t\r\n\treturn
+        LTrim(RTrim(value));\r\n\t\r\n}\r\n\r\n</script>\r\n\r\n\r\n\r\n<!-- start
+        bottom section -->\t\r\n\t\t  <div id=\"footer\">\r\n\t\t\t<ul>\r\n\t\t\t
+        \ <li>\r\n\t\t\t\t<a href=\"javascript:TermsAndConditions();\">Terms &amp;
+        conditions</a>\r\n\t\t\t  </li>\r\n\t\t\t  <li>\r\n\t\t\t\t<a href=\"javascript:PrivacyPolicy();\">Privacy</a>\r\n\t\t\t
+        \ </li>\r\n\t\t\t  <li>\r\n\t\t\t\t<a href=\"http://www.edfenergy.com/products-services/accessibility.shtml\"
+        target=\"_blank\">Accessibility</a>\r\n\t\t\t  </li>\r\n\t\t\t  <li>\r\n\t\t\t\t<a
+        href=\"http://www.edfenergy.com/products-services/copyright.shtml\" target=\"_blank\">Copyright
+        statement</a>\r\n\t\t\t  </li>\r\n\t\t\t  <li class=\"last\">\r\n\t\t\t\t<a
+        href=\"http://www.edfenergy.com/products-services/fuel-mix.shtml\" target=\"_blank\">Our
+        fuel mix</a>\r\n\t\t\t  </li>\r\n\t\t\t</ul>\r\n\t\t\t\r\n\t\t\t\t<p class=\"copy\">
+        &copy; EDF Energy 2013 All rights reserved</p>\r\n\t\t\t\t<p class = \"cookiePolicy\">By
+        continuing to use this site, you agree to our <a target=\"_blank\" href=\"http://www.edfenergy.com/about-us/cookies/cookie-policy.shtml\"
+        style = \"text-decoration:underline; color: #fff\">Cookie Policy</a>.If you
+        don't agree to Cookies<br>being stored on your computer in line with that
+        policy please navigate away from this site.</p>\r\n\t\t  </div>\r\n          \r\n<!--
+        end bottom section -->\t\t\r\n\r\n\r\n<SCRIPT>\r\n\tdocument.body.scroll =
+        \"\";\r\n</SCRIPT>\t\t\t\r\n<!--------------------------- end bottom section
+        ----------------------------------->\t\r\n\t  \r\n\t\t</div><!--outer-->\r\n\t
+        \ </div>\r\n\t</div><!--wrap-->\r\n  </body>\r\n</html>\r\n\r\n\r\n</TD></TR></TABLE>\r\n\r\n\r\n</body></html>"
+    http_version:
+  recorded_at: Mon, 23 Dec 2013 21:21:28 GMT
+- request:
+    method: post
+    uri: https://my-account.edfenergy.com/nclogin.submit
+    body:
+      encoding: UTF-8
+      string: f_method=LOGIN&f_username=foo%40bar.com&f_passwd=password&__ncforminfo=Z3CFJKP-9icmDJoUNvCyImzez0DXqsZChKjXdAZ6NDSFojSpqo9n4fssnFez3VbVxK1fyo0RuJ3ITmk097DNqw%3D%3D
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BNES_PortalAlias=XzUY/VXmwrodHSs0LYajoPVGv2+xxMK565PK3PDPqV5kwahXuVAGWVh4d7/t8zaCGWIqO3SVuuxWWH7Q91cvT2M12fX8vDH+;
+        BNI_persistence=00000000000000000000000064d910ac000001e1; PortalAlias=portal/anonymous
+      Host:
+      - my-account.edfenergy.com
+      Referer:
+      - &1 !ruby/object:URI::HTTPS
+        scheme: https
+        user:
+        password:
+        host: my-account.edfenergy.com
+        port: 443
+        path: /irj/portal/anonymous
+        query:
+        opaque:
+        registry:
+        fragment:
+        parser:
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '174'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - Close
+      Cache-Control:
+      - must-revalidate
+      - no-cache
+      - no-store
+      Location:
+      - /irj/portal/addnlcontracts
+      Set-Cookie:
+      - BNIS_ChallengeState=o9OknlFn1yZY+DgqVzQOSfU6piLeTrwQ; Path=/; Expires=Sun,
+        30-Jun-80 00:00:00 GMT
+      - BNIS_State=o9OknlFn1yZY+DgqVzQOSfU6piLeTrwQ; Path=/; Expires=Sun, 30-Jun-80
+        00:00:00 GMT
+      - BNIS_USR_SESSION_ID=H42I+5P0DxiDk3YLy5G1+qBX9DazpDKlOwk7zETGCUwZOPknE1xfe5naVLLN4wNBejwRsoLmEYCy/yf2qTF9pJ+32rqRbgTilHNbos5JCoM9amhKH1wb87tI6KkLuyr3YG+kCLtV2X2nuLWUeNFz9y4qQufTMqt2i8l7dVDVWkHoPsMXXuIHGbleAy3IohVzwmXp9tdsGiVeqZq4fK3810+mfA1VNnuTb/RT2RGDpdbAw66n6DtlwooB8uFjwGqBv9XdaVBY5kH9qHHXvOuMflkrZWphoXFVxCt0gEP6Y/UT6ZeHxwnC3D6evY1M7gW8fL7U6TMNE8iEUP6Fsx8Df1N0H6bRcKe1BwQXE9u1B/6zfzC67De1VJy8LJg+oEEIhEbgQkCo0eHHaE8m+eZgHmfh15+sUe8Z/jY4ur45cvANLTRschqfgrkFnM6t5oEq5lIAOH8e6wIq8phk2zC0JeZC24+2Ahn2;
+        Path=/
+      Content-Length:
+      - '15'
+    body:
+      encoding: UTF-8
+      string: |
+        <html>
+        </html>
+    http_version:
+  recorded_at: Mon, 23 Dec 2013 21:21:28 GMT
+- request:
+    method: get
+    uri: https://my-account.edfenergy.com/irj/portal/addnlcontracts
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BNES_JSESSIONID=uAnVU51RdVrDTV/DUEEyIW5JIgBH1pL5VS5PfVk4+oa7JdoBXzPydpJ5JCLkL301rswle0rB7By+r6jVwfBsSsTYHEYeLBUN3pY0Zn1QY8UQVpQgVjcgcRDDZ7T4F3rBp+SDTRYzATk7v3ES8PML0b5w99lARHenVpjzLnpF7Dk=;
+        BNES_PortalAlias=XzUY/VXmwrodHSs0LYajoPVGv2+xxMK565PK3PDPqV5kwahXuVAGWVh4d7/t8zaCGWIqO3SVuuxWWH7Q91cvT2M12fX8vDH+;
+        BNES_saplb_*=iUQvbDtAK8EBbgtTf7rgnxJAf01VDG9C+DncaN/MuSAAOBVwBJAewBkqmigALfcR/Y3vkUq7LUpC8DWgt7WQAJJXwua3B9KIiSnW7qk7QiU=;
+        BNIS_USR_SESSION_ID=H42I+5P0DxiDk3YLy5G1+qBX9DazpDKlOwk7zETGCUwZOPknE1xfe5naVLLN4wNBejwRsoLmEYCy/yf2qTF9pJ+32rqRbgTilHNbos5JCoM9amhKH1wb87tI6KkLuyr3YG+kCLtV2X2nuLWUeNFz9y4qQufTMqt2i8l7dVDVWkHoPsMXXuIHGbleAy3IohVzwmXp9tdsGiVeqZq4fK3810+mfA1VNnuTb/RT2RGDpdbAw66n6DtlwooB8uFjwGqBv9XdaVBY5kH9qHHXvOuMflkrZWphoXFVxCt0gEP6Y/UT6ZeHxwnC3D6evY1M7gW8fL7U6TMNE8iEUP6Fsx8Df1N0H6bRcKe1BwQXE9u1B/6zfzC67De1VJy8LJg+oEEIhEbgQkCo0eHHaE8m+eZgHmfh15+sUe8Z/jY4ur45cvANLTRschqfgrkFnM6t5oEq5lIAOH8e6wIq8phk2zC0JeZC24+2Ahn2;
+        BNI_persistence=00000000000000000000000064d910ac000001e1; JSESSIONID=(J2EE767206400)ID0363705751DB21554630fd811a9b3d2f14c6a199f4123883d590End;
+        PortalAlias=portal/anonymous; saplb_*=(J2EE767206400)767206451
+      Host:
+      - my-account.edfenergy.com
+      Referer:
+      - *1
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Language:
+      - en-US
+      Expires:
+      - '0'
+      Date:
+      - Mon, 23 Dec 2013 21:21:15 GMT
+      Transfer-Encoding:
+      - chunked
+      Set-Cookie:
+      - BNES_MYSAPSSO2=UEU/jR0kjl1dA5MbOOimi4+2BlRwD9FWqQM+Uz1VZ2tDyEvR38Csgm7mnm5FDucpplZitY875uI3S/vFTf8Ldfv6hq9kLYAdC0YS1sDQrEEbufCVDA8zvfkk3s2Esq8M977QCGph2EMb9hBawiH05nMd+20CVyFY/yrmgH3s905kOAAGgNanpDCsWWuQ47RiCWK9S0hHm9EPrWAHnPs0SRR1VOz3emYTPYwY2ktoVOubltur+04foPKLm7xua83RfZrQSsPW4TdsWt97ZSszGD05CB3/w17A1cM+lSxyWcjfOTLY0sPPw+oYQXBp97v+Wq9mhqUV6N99Tr3xQGtRKGAJEG/JrACi5kG1bgCKrKe5A9yl6PAaUXKBaN1KEHIdfeMIvjV6m4+gX4ef+DM6dxH5Q/ZRmTe6qtyhWHfaarD/a7VbthXC5qPQ1wZ9XRjeLUqamYj/OTtdz66hNumxKzjXgXR0eoJAbUCXjt2N8GaxsNqoiohYbL5uaLBXKgBut+7ofNCgOLR1T+uuxy3VkuTt6I0hh3AjTjjraDEvvTk1E/5larQkqcrHqdvpwCooA1g2oIBcGeG4Pb34UcPcjs46XTO/RnBUvHQRIg65YnrATpvCl4DE7YMAMsOB/iPVa2EQHGI7re4gjSgutNPwkK2vzwdt0J5Qq1XBirdODxb0ASoh6SGafl3x6ziz4Vch0tWZZVSFdpFjoTVrCc7DNGrCU131JCz9ArYAPbxk+60LFpDOoIP6osEw5B9PbCrj;
+        path=/;domain=.edfenergy.com;HttpOnly; Path=/
+      - BNES_PortalAlias=/cxEw+k5fthWDCXESFQuYYBapgaj65pUGsV03eyBSeCWS6i2sL1Fmc/0RXp74v3QlnbZBhyBx3sPhQmLHB+QLJHQtEac7g8/WxP8ZPRmuQA=;
+        Path=/
+      - BNI_persistence=00000000000000000000000064d910ac000001e1; Path=/; HttpOnly
+      - MYSAPSSO2=AjExMDAgABxwb3J0YWw6a2R3ZWdzQGdvb2dsZW1haWwuY29tiAATYmFzaWNhdXRoZW50aWNhdGlvbgEACjAxNTQzNTAyOTICAAMwMDADAANFUDEEAAwyMDEzMTIyMzIxMjEFAAQAAAAICgAKMDE1NDM1MDI5Mv8BBTCCAQEGCSqGSIb3DQEHAqCB8zCB8AIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHQMIHNAgEBMCIwHTEMMAoGA1UEAxMDRVAxMQ0wCwYDVQQLEwRKMkVFAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xMzEyMjMyMTIxMTNaMCMGCSqGSIb3DQEJBDEWBBTu5t11XrJWNQp2saKVbeoI8G38qTAJBgcqhkjOOAQDBC8wLQIVAPmfvGauRJGAmdtCtkIvTsFJUctJAhQNvcuyrZSNN86BgNtdD4OkLS42KA%3D%3D;path=/;domain=.edfenergy.com;HttpOnly;
+        Path=/
+      - PortalAlias=portal/addnlcontracts; Path=/
+    body:
+      encoding: UTF-8
+      string: "<script>\ntop.location='/irj/portal/npp';\n</script>\n<html><head><LINK
+        REL=stylesheet HREF=\"/irj/portalapps/com.sap.portal.design.portaldesigndata/themes/portal/Edf_Energy_Orchard_Theme/glbl/glbl_nn7.css?7.0.20.0.1\">\n<LINK
+        REL=stylesheet HREF=\"/irj/portalapps/com.sap.portal.design.portaldesigndata/themes/portal/Edf_Energy_Orchard_Theme/prtl_std/prtl_std_nn7.css?7.0.20.0.1\">\n\n<!--
+        EPCF: BOB Core -->\n<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n<script
+        src=\"/irj/portalapps/com.sap.portal.epcf.loader/script/optimize/js13_epcf.js?7.00001620\"></script>\n<script>\n<!--\nEPCM.relaxDocumentDomain();\nEPCM.init(
+        {\nVersion:7.00001620,\nLevel:1,\nPortalVersion:\"7.00.200908152330\",\nDynamicTop:false,
+        // [service=true nestedWinOnAlias=false]\nUAType:21, // [Mozilla]\nUAVersion:5.0,\nUAPlatform:4,
+        // [Linux]\nUIPMode:\"1\", // [Default=1, User=0, Personalize=true]\nUIPWinFeatures:\"\",\nUIPPortalPath:\"https://my-account.edfenergy.com:443/irj/portal/addnlcontracts\",\nUIPPopupComp:\"\",\nUIPPopupCompSize:\"\",\nUIPPopupMsgNN:\"Your
+        current page contains unsaved data.\\r\\nDo you want to continue with navigation
+        and open a new window?\",\nUIPPopupMsgND:\"Your current page contains unsaved
+        data.\\r\\nDo you want to discard the changes and open the content in the
+        same window?\",\nDBGException:false\n} );\nEPCM.DSM.init( {\nTerminatorURL:\"/irj/servlet/prt/portal/prtroot/com.sap.portal.dsm.Terminator\",\nWinEmptyUrl:\"/irj/portalapps/com.sap.portal.dsm/images/empty.gif\",\nForcedUserDebug:false,\nKeepAliveActive:false,\nKeepAliveDelta:840,\nKeepAliveStopAfter:36000\n}
+        );\nfunction SAPWP_receiveSessInfo( sessInfo, frameRef ){\n  EPCM.DSM.processSession(
+        sessInfo, frameRef );\n}\n//-->\n</script>\n<!-- EPCF: EOB Core -->\n\n<script
+        type=\"text/javascript\">\n/*HTML Business for Java, 645_SP_REL, 529005, Wed
+        Jul 22 15:27:56 BST 2009*/\nur_system = {doc : window.document , mimepath
+        :\"/irj/portalapps/com.sap.portal.design.urdesigndata/themes/portal/Edf_Energy_Orchard_Theme/common/\",
+        stylepath : \"/irj/portalapps/com.sap.portal.design.urdesigndata/themes/portal/Edf_Energy_Orchard_Theme/ur/\",
+        emptyhoverurl : \"/irj/portalapps/com.sap.portal.htmlb/jslib/emptyhover.html\",
+        is508 : false, dateformat : 1, domainrelaxing : \"MINIMAL\"};\n</script>\n<title
+        >MyAccount</title><meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"><script
+        SRC=\"/irj/portalapps/com.sap.portal.httpconnectivity.httpauthentication/scripts/CAManagerScript.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/HistoryFramework.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/NavigationFramework.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.navigation.helperservice/scripts/FrameworkSupport.js\"
+        ></script><script SRC=\"/irj/portalapps/com.sap.portal.pagebuilder/scripts/pagesupport.js\"
+        ></script></head><body class=\"prtlBody urFontBaseFam urScrl\">\n<!-- EPCF:
+        Component com.sap.portal.navigation.portallauncher.default, eehjlmjdbokfdkijccdngbedcbffeipe
+        -->\n<Script>\nvar caEngine = new CAManager('/irj/servlet/prt/portal/prtroot/com.sap.portal.httpconnectivity.httpauthentication.Engine','dialogHeight:10;dialogWidth:20;center:1;help:0;status:0');\ncaEngine.registerCAEvent('com.sap.portal.httpconnectivity.httpauthentication','Teach',caEngine,'eventCallBack');\n</Script>\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script>\r\n\r\nvar
+        disableWorkProtectCheck = false;\r\n\r\n\r\nfunction popupUnsavedDataBeforeUnload(evt)\r\n{\r\n\tif
+        ((typeof pageTitleBar != \"undefined\") && pageTitleBar.backForwardLink)\r\n\t{\r\n\t\tpageTitleBar.backForwardLink
+        = false;\t\r\n\t}\r\n\telse\r\n\t{\r\n\t\tevt = (evt) ? evt : ((window.event)
+        ? event : null);\r\n\t\tif ( EPCM.getUAType() != EPCM.MSIE && EPCM.getUAType()
+        != EPCM.MOZILLA) return;\r\n\t\tif ( EPCM.getGlobalDirty() && (! disableWorkProtectCheck
+        ))\r\n\t\t{\r\n\t\t\tif(EPCM.getUAType() == EPCM.MSIE )\r\n\t\t\t{\r\n\t\t\t\tevt.returnValue
+        = 'You have unsaved data';\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\t\t\r\n\t\t\t\tevt.preventDefault();\r\n\t\t\t\tevt.stopPropagation();\r\n\t\t\t\treturn
+        'You have unsaved data';\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\ntry{\r\n     if
+        ( EPCM.getUAType() == EPCM.MSIE || EPCM.getUAType()== EPCM.MOZILLA){\r\n       if
+        (window==EPCM.getSAPTop()){  \r\n         window.onbeforeunload = popupUnsavedDataBeforeUnload;\r\n
+        \      }   \r\n     }\r\n} catch(ex){} \r\n</script><script>frameworkSupport.init({anonymous:false,phase:'framework',portalURL:'https://my-account.edfenergy.com:443/irj/portal/addnlcontracts'});</script><script>frameworkSupport.init2({contentAreaURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fAdditionalContractsDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.AdditionalContractsPage_pg!2fcom.sap.portal.innerpage!2fcom.sap.portal.contentarea',portalURL:'https://my-account.edfenergy.com:443/irj/portal/addnlcontracts',innerPage:'pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/AdditionalContractsDesktop/frameworkPages/com.edfe.orchard.pct.AdditionalContractsPage_pg/com.sap.portal.innerpage',innerPageFrameURL:'/irj/servlet/prt/portal/prteventname/Navigate/prtroot/pcd!3aportal_content!2fEdf_Energy_Development!2fOrchard!2fDesktop!2fEDFE_Framework!2fEDFE_Anonymous!2fAdditionalContractsDesktop!2fframeworkPages!2fcom.edfe.orchard.pct.AdditionalContractsPage_pg!2fcom.sap.portal.innerpage',tlnComp:'/irj/portalapps/com.sap.portal.navigation.toplevel',ObjBasedNavigationURL:'/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.objbased.ObjBasedNavigation',serverPath:'https://my-account.edfenergy.com:443',usedConnectors:''});</script>\t\r\n\r\n<span
+        id=divChangeContent name=divChangeContent style=\"position:absolute;height:0;width:0;top:-5000;left:-5000\">\r\n\t<FORM
+        action=\"\" method=POST id=\"frmChangeContent\" name=\"frmChangeContent\">\r\n\t\t<INPUT
+        type=\"hidden\" id=NavigationTarget name=NavigationTarget>\r\n\t\t<INPUT type=\"hidden\"
+        id=RelativeNavBase name=RelativeNavBase></INPUT>\r\n\t<input type=\"hidden\"
+        name=\"__ncforminfo\" value=\"nPNJbFQYLNK0G3xoIRR8Llf-bxUTuOBwB1d8knZweGwMmJGf_H1XxaEqK8Wv9Xc2Y8vsP3EDFi9N8ZTS3GUCHDyC4i3rTn2Z4Mbxk-FabgM=\"></FORM>\r\n\t<form
+        \ id='obnNavForm' method='post' target='obnNavIFrame' >\r\n\t\t<input type='hidden'
+        name='systemAlias'>\r\n\t\t<input type='hidden' name='businessObjName'>\r\n\t\t<input
+        type='hidden' name='objValue'>\r\n\t\t<input type='hidden' name='operation'>\r\n\t\t<input
+        type='hidden' name='usePost' value='false'>\r\n\t\t<input type='hidden' name='source'>\r\n\t\t<input
+        type='hidden' name='resolvingMode' value='Default'>\r\n\t<input type=\"hidden\"
+        name=\"__ncforminfo\" value=\"nPNJbFQYLNK0G3xoIRR8Llf-bxUTuOBw9FQYOWzdNfCjzi0oa4tVsQR0jRj_vddx1SAIVGJYrZ9lTQTHBw9AttBb1FQKt-xDSpcZ9qwB96Mbq1f1bWzsf3WejMQX1aZEiglpeUZjLDENFskQqPq-e6EoKE82Nxjm\"></form>\r\n</span>\r\n<iframe
+        src='/irj/portalapps/com.sap.portal.pagebuilder/html/EmptyDocument.html' style='position:absolute;height:0;visibility:hidden'
+        name='obnNavIFrame' id='obnNavIFrame'></iframe>\r\n<script>var disablePersonalize
+        = true;</script>\n<!-- EPCF: Component com.sap.portal.pagebuilder.pageBuilder,
+        leebmiihhiepcpfclcppfhedcbffeipg -->\n<SCRIPT>var emptyDocumentUrl = \"/irj/portalapps/com.sap.portal.pagebuilder/html/EmptyDocument.html\";</SCRIPT>\n<!--
+        EPCF: Component com.sap.portal.layouts.framework.light_framework, micecodmggnfjdlbhfhkanedcbffennb
+        -->\n\r\n\r\n\r\n\r\n\r\n<SCRIPT>if (typeof EPCM != \"undefined\") {EPCM.relaxDocumentDomain();}
+        else { var d=document.domain; if (d.search(/^\\d+\\.\\d+\\.\\d+\\.\\d+$/)>=0)
+        {} else { var l=d.indexOf(\".\"); if (l>=0) {d=d.substr(l+1)} } if (document.domain
+        != d) {document.domain = d;}}\npageSupport.pageHelperUrl = '/irj/servlet/prt/portal/prtroot/com.sap.portal.pagebuilder.PageHelper';\npageSupport.proxyModesUrl
+        = '/irj/servlet/prt/portal/prtroot/com.sap.portal.pagebuilder.IviewModeProxy';\npageSupport.addPageId('pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/AdditionalContractsDesktop/frameworkPages/com.edfe.orchard.pct.AdditionalContractsPage_pg','0','local');\npageSupport._addIvuPageId(\"pcd:portal_content/Edf_Energy_Development/Orchard/Desktop/EDFE_Framework/EDFE_Anonymous/AdditionalContractsDesktop/frameworkPages/com.edfe.orchard.pct.AdditionalContractsPage_pg/com.edfe.orchard.pct.AdditionalContracts_ivu\",\"page0ivu0\");\npageSupport._addIViewBank(\"page0ivu0\",new
+        iviewBank(\"\",\"\",pageSupport.EMBEDDED,1,\"0\",\"\",\"GET\"));\n</SCRIPT>\r\n
+        \   <script>\r\n        document.body.style.margin=0;\r\n        document.body.scroll
+        = \"no\";\r\n       \r\n       \r\n    </script>\r\n \r\n            <TABLE
+        style=\"WIDTH: 100%\" cellSpacing=0 cellPadding=0  class=\"prtlHeaderCon\"
+        \ ><TR><TD>\n<!-- EPCF: Component com.edfe.orchard.AdditionalContracts.AdditionalContractsComp,
+        jkhliakplmhdambeiphefledcbffeiph -->\n</TD></TR></TABLE>\r\n\r\n\r\n</body></html>"
+    http_version:
+  recorded_at: Mon, 23 Dec 2013 21:21:30 GMT
+recorded_with: VCR 2.8.0
